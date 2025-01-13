@@ -46,6 +46,6 @@
         <PackageReference Include="Soenneker.Instantly.Analytics" Version="3.0.346" />
         <PackageReference Include="Soenneker.Instantly.Leads" Version="3.0.2024" />
         <PackageReference Include="Soenneker.Instantly.Unibox" Version="3.0.1370" />
-        <PackageReference Include="Soenneker.Instantly.Verification" Version="3.0.582" />
+        <PackageReference Include="Soenneker.Instantly.Verification" Version="3.0.583" />
     </ItemGroup>
 </Project>
