@@ -14,22 +14,22 @@ public static class InstantlySuiteRegistrar
 {
     public static IServiceCollection AddInstantlySuiteSingleton(this IServiceCollection services)
     {
-        services.AddInstantlyVerificationUtilAsSingleton();
-        services.AddInstantlyAccountsUtilAsSingleton();
-        services.AddInstantlyAnalyticsUtilAsSingleton();
-        services.AddInstantlyUniboxUtilAsSingleton();
-        services.AddInstantlyLeadUtilAsSingleton();
+        services.AddInstantlyVerificationUtilAsSingleton()
+                .AddInstantlyAccountsUtilAsSingleton()
+                .AddInstantlyAnalyticsUtilAsSingleton()
+                .AddInstantlyUniboxUtilAsSingleton()
+                .AddInstantlyLeadUtilAsSingleton();
 
         return services;
     }
 
     public static IServiceCollection AddInstantlySuiteAsScoped(this IServiceCollection services)
     {
-        services.AddInstantlyVerificationUtilAsScoped();
-        services.AddInstantlyAccountsUtilAsScoped();
-        services.AddInstantlyAnalyticsUtilAsScoped();
-        services.AddInstantlyUniboxUtilAsScoped();
-        services.AddInstantlyLeadUtilAsScoped();
+        services.AddInstantlyVerificationUtilAsScoped()
+                .AddInstantlyAccountsUtilAsScoped()
+                .AddInstantlyAnalyticsUtilAsScoped()
+                .AddInstantlyUniboxUtilAsScoped()
+                .AddInstantlyLeadUtilAsScoped();
 
         return services;
     }
