@@ -1,4 +1,4 @@
-# Contributing to Soenneker.Instantly.Suite
+﻿# Contributing to Soenneker.Instantly.Suite
 
 We're excited that you're interested in contributing!
 
