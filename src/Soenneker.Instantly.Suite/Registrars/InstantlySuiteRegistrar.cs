@@ -12,6 +12,11 @@ namespace Soenneker.Instantly.Suite.Registrars;
 /// </summary>
 public static class InstantlySuiteRegistrar
 {
+    /// <summary>
+    /// Adds instantly suite singleton.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddInstantlySuiteSingleton(this IServiceCollection services)
     {
         services.AddInstantlyVerificationUtilAsSingleton()
@@ -23,6 +28,11 @@ public static class InstantlySuiteRegistrar
         return services;
     }
 
+    /// <summary>
+    /// Adds instantly suite as scoped.
+    /// </summary>
+    /// <param name="services">The service collection.</param>
+    /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddInstantlySuiteAsScoped(this IServiceCollection services)
     {
         services.AddInstantlyVerificationUtilAsScoped()
