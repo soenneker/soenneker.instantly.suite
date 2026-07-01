@@ -1,6 +1,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Soenneker.Instantly.Accounts.Registrars;
 using Soenneker.Instantly.Analytics.Registrars;
+using Soenneker.Instantly.Dfy.Registrars;
 using Soenneker.Instantly.Leads.Registrars;
 using Soenneker.Instantly.Unibox.Registrars;
 using Soenneker.Instantly.Verification.Registrars;
@@ -19,11 +20,9 @@ public static class InstantlySuiteRegistrar
     /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddInstantlySuiteSingleton(this IServiceCollection services)
     {
-        services.AddInstantlyVerificationUtilAsSingleton()
-                .AddInstantlyAccountsUtilAsSingleton()
-                .AddInstantlyAnalyticsUtilAsSingleton()
-                .AddInstantlyUniboxUtilAsSingleton()
-                .AddInstantlyLeadUtilAsSingleton();
+        services.AddInstantlyVerificationUtilAsSingleton().AddInstantlyAccountsUtilAsSingleton()
+                .AddInstantlyAnalyticsUtilAsSingleton().AddInstantlyUniboxUtilAsSingleton()
+                .AddInstantlyLeadUtilAsSingleton().AddInstantlyDfyUtilAsSingleton();
 
         return services;
     }
@@ -35,11 +34,9 @@ public static class InstantlySuiteRegistrar
     /// <returns>The result of the operation.</returns>
     public static IServiceCollection AddInstantlySuiteAsScoped(this IServiceCollection services)
     {
-        services.AddInstantlyVerificationUtilAsScoped()
-                .AddInstantlyAccountsUtilAsScoped()
-                .AddInstantlyAnalyticsUtilAsScoped()
-                .AddInstantlyUniboxUtilAsScoped()
-                .AddInstantlyLeadUtilAsScoped();
+        services.AddInstantlyVerificationUtilAsScoped().AddInstantlyAccountsUtilAsScoped()
+                .AddInstantlyAnalyticsUtilAsScoped().AddInstantlyUniboxUtilAsScoped().AddInstantlyLeadUtilAsScoped()
+                .AddInstantlyDfyUtilAsScoped();
 
         return services;
     }
