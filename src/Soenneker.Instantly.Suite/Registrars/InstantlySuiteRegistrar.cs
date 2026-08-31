@@ -9,7 +9,7 @@ using Soenneker.Instantly.Verification.Registrars;
 namespace Soenneker.Instantly.Suite.Registrars;
 
 /// <summary>
-/// A comprehensive suite of utility libraries for Instantly.ai's API
+/// Registers Instantly account, analytics, DFY, lead, Unibox, and email-verification operations together.
 /// </summary>
 public static class InstantlySuiteRegistrar
 {
