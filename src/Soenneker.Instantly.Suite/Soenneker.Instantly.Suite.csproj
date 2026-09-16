@@ -44,11 +44,11 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Instantly.Accounts" Version="4.0.2463" />
-        <PackageReference Include="Soenneker.Instantly.Analytics" Version="4.0.1639" />
-        <PackageReference Include="Soenneker.Instantly.Dfy" Version="4.0.97" />
-        <PackageReference Include="Soenneker.Instantly.Leads" Version="4.0.3195" />
-        <PackageReference Include="Soenneker.Instantly.Unibox" Version="4.0.2719" />
-        <PackageReference Include="Soenneker.Instantly.Verification" Version="4.0.1796" />
+        <PackageReference Include="Soenneker.Instantly.Accounts" Version="4.0.2464" />
+        <PackageReference Include="Soenneker.Instantly.Analytics" Version="4.0.1640" />
+        <PackageReference Include="Soenneker.Instantly.Dfy" Version="4.0.98" />
+        <PackageReference Include="Soenneker.Instantly.Leads" Version="4.0.3196" />
+        <PackageReference Include="Soenneker.Instantly.Unibox" Version="4.0.2720" />
+        <PackageReference Include="Soenneker.Instantly.Verification" Version="4.0.1797" />
     </ItemGroup>
 </Project>
