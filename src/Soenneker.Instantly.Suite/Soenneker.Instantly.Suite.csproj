@@ -46,7 +46,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <PackageReference Include="Soenneker.Instantly.Accounts" Version="11.0.2536" />
+        <PackageReference Include="Soenneker.Instantly.Accounts" Version="11.0.2537" />
         <PackageReference Include="Soenneker.Instantly.Analytics" Version="11.0.1735" />
         <PackageReference Include="Soenneker.Instantly.Dfy" Version="11.0.181" />
         <PackageReference Include="Soenneker.Instantly.Leads" Version="11.0.3252" />
